@@ -15,14 +15,8 @@
 #include "umock_c/umocktypes.h"
 #include "umock_c/umocktypes_c.h"
 #include "umock_c/umock_c.h"
-#include "umock_c/umock_log.h"
 #include "umock_c/umock_lock_factory.h"
 #include "umock_c/umock_lock_if.h"       // for UMOCK_C_LOCK_HANDLE
-
-void UMOCK_LOG(const char* format, ...)
-{
-    (void)format;
-}
 
 static UMOCKCALL_HANDLE test_expected_call = (UMOCKCALL_HANDLE)0x4242;
 static UMOCKCALL_HANDLE test_actual_call = (UMOCKCALL_HANDLE)0x4243;

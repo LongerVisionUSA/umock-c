@@ -8,12 +8,6 @@
 #include "umock_c/umockcallrecorder.h"
 #include "umock_c/umock_c.h"
 #include "umock_c/umock_c_negative_tests.h"
-#include "umock_c/umock_log.h"
-
-void UMOCK_LOG(const char* format, ...)
-{
-    (void)format;
-}
 
 static UMOCKCALLRECORDER_HANDLE test_call_recorder = (UMOCKCALLRECORDER_HANDLE)0x4244;
 
