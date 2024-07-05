@@ -27,8 +27,8 @@ project(umock_c)
 
 set(UMOCK_C_VERSION 1.1.19)
 
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_C_STANDARD 23)
+set(CMAKE_CXX_STANDARD 23)
 
 #Use solution folders.
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
